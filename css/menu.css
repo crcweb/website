@@ -1,0 +1,54 @@
+#menuStart {
+	margin-left: 165px;
+	margin-bottom: 10px;
+	width: 135px;
+	float: left;
+}
+#menuSegment2, #menuSegment3, #menuSegment4{
+	margin-bottom: 10px;
+	width: 135px;
+	float: left;
+}
+#menuSegment5{
+	margin-bottom: 10px;
+	width: 145px;
+	float: left;
+}
+#menu {
+	margin-bottom: 10px;
+	width: 135px;
+	float: left;
+}
+#menuLast {
+	margin-right: 135px;
+	margin-bottom: 10px;
+	width: 120px;
+	float: none;
+}
+ul.menu {
+	display: none;
+	list-style-type: none;
+	margin-top: 5px;
+}
+ul.menu li {
+	font: 12px arial, helvetica, sans-serif;
+	padding-left: 10px;
+}
+a.menuLink, li a {
+	text-decoration: none;
+	color: #060;
+}
+a.menuLink {
+	font-size: 16px;
+	font-weight: bold;
+}
+#pullDown {
+	width: 971px;
+	margin-bottom: 10px;
+	float: none;
+	margin: 0;
+	padding: 0;
+	display: 
+	block;
+}
+
