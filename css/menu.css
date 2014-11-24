@@ -33,6 +33,7 @@ ul.menu {
 ul.menu li {
 	font: 12px arial, helvetica, sans-serif;
 	padding-left: 10px;
+	width: 180px;
 }
 a.menuLink, li a {
 	text-decoration: none;
