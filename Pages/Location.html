@@ -14,6 +14,33 @@
 <!--    <script type="text/javascript" src="js/jQuery.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>  -->
     <script type="text/javascript" src="../js/menuPd.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="../js/markerwithlabel_packed.js"></script>
+    <script>
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(44.2216, -70.9813);
+            
+            
+            //var crc = new google.maps.LatLng(44.2362671,-71.0123506);
+            var crc = new google.maps.LatLng(44.2366514,-71.0137883);
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: myLatlng, 
+                zoom: 11,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker1 = new MarkerWithLabel({
+                position: crc,
+                map: map,
+                labelContent: "Cold River Camp",
+                labelClass: "labels",
+                labelAnchor: new google.maps.Point(45, 0),
+                labelStyle: {opacity: 0.75}
+             });
+                }
+                google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <!-- TemplateBeginEditable name="head" -->
     <!-- TemplateEndEditable -->
 
@@ -160,6 +187,21 @@ ol
 ul
 	{margin-bottom:0in;}
 -->
+      #map-canvas {
+        width: 500px;
+        height: 400px;
+      }
+     
+     .labels {
+     color: black;
+     background-color: white;
+     font-family: "Lucida Grande", "Arial", sans-serif;
+     font-size: 10px;
+     font-weight: bold;
+     text-align: center; 
+     border: 2px solid black;
+     white-space: nowrap;
+   }
 </style>
 
 </head>
@@ -272,9 +314,7 @@ River Camp Location</span></b></p>
 normal'><b><span style='font-size:12.0pt;font-family:Arial;color:#222222'>&nbsp;</span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%'>Cold River
-Camp&nbsp; </span><b><span style='font-size:14.0pt;line-height:115%;color:red'>X
-</span></b><span style='font-size:12.0pt;line-height:115%;color:red'>&nbsp;</span><span
-style='font-size:12.0pt;line-height:115%'>of the Appalachian Mountain Club is
+Camp of the Appalachian Mountain Club is
 located in North Chatham NH, along Rte. 113 in the Cold River Valley just south
 of Evans Notch. It is about a three to four hour drive from the Boston area,
 and about 17 miles north on Rte. 113 from Fryeburg ME.</span></p>
@@ -285,9 +325,7 @@ Camp: 32 AMC Rd., N. Chatham, NH, 03813</span></p>
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%'>Phone (in
 season): (603) 694-3291</span></p>
 
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-normal'><span><img width=362 height=272 id="Picture 3"
-src="../Images/location.gif"></span></p>
+<div id="map-canvas"></div>
 
 <p class=MsoNormal><span style='line-height:115%'>&nbsp;</span></p>
 
