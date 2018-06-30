@@ -33,6 +33,27 @@
                         <font color="#005E5A" size="5"><b>Cold River Camp</b></font><br /><br />
                         <font color="#005E5A" size="3">North Chatham, NH<br /></font><br /><br />
                     </div>
+                    <div id="emailDiv" style="float: right; margin-top: 5px; margin-left: 5px; margin-right: 5px;">
+                        <form method="post" action="https://oi.vresp.com?fid=a13277ee38" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" >
+                            <div style="font-family: verdana; font-size: 11px; width: 280px; padding: 5px; border: 1px solid #000000; background: #e5d9b8;">
+                                <strong>
+                                    <span style="color: #005E5A;">Join our mailing list today!</span>
+                                </strong>
+                                </br>
+                                <label style="color: #005E5A;">Email Address:</label>
+                                <input name="email_address" size="20" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+                                <div id="captchaPreview" class="field">
+                                    <img id="vrCaptchaImage" src="https://img.verticalresponse.com/blank.gif" height="35" width="125" />
+                                    </br>
+                                    <label id="captcha_text" style="color: #005E5A;">Enter the letters above:</label>
+                                    <input size="5" name="captcha_guess"/>
+                                    <input type="submit" value="Join Now" style="border: 1px solid #999;"/>
+                                    <input type=hidden id="vrCaptchaHash" name="captcha_hash" value="">
+                                </div>
+                                <script>hex_chars=Array('0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f');hash='';hash_length=20;for(h=0;h<hash_length;h++){hash=hash+hex_chars[Math.floor(16*Math.random())];}document.getElementById('vrCaptchaHash').value=hash;captcha_image_url='https://captcha.vresp.com/produce/'+hash;document.getElementById('vrCaptchaImage').src=captcha_image_url;</script>
+                            </div>
+                        </form>
+                    </div>
                     <div id="socialMediaDiv" style="float: right; margin-top: 10px; margin-right: 5px;">
                         <div id="fbDiv" style="float: right; clear: right;">
                             <div>
