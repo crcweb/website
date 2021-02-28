@@ -15,32 +15,18 @@
     <script type="text/javascript" src="js/functions.js"></script>  -->
     <script type="text/javascript" src="../js/menuPd.js"></script>
     <script async src="https://www.jscache.com/wejs?wtype=socialButtonBubbles&amp;uniq=312&amp;locationId=4221183&amp;color=green&amp;size=rect&amp;lang=en_US&amp;display_version=2"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="../js/markerwithlabel_packed.js"></script>
+
     <script>
-        function initialize() {
-            var myLatlng = new google.maps.LatLng(44.2216, -70.9813);
-            
-            
-            //var crc = new google.maps.LatLng(44.2362671,-71.0123506);
-            var crc = new google.maps.LatLng(44.2366514,-71.0137883);
-            var mapCanvas = document.getElementById('map-canvas');
-            var mapOptions = {
-                center: myLatlng, 
-                zoom: 11,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
+
+            let map;
+
+            function initMap() {
+                    map = new google.maps.Map(document.getElementById("map"), {
+                    center: { lat: 44.236529, lng: -71.013401 },
+                    zoom: 15,
+                });
             }
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-            var marker1 = new MarkerWithLabel({
-                position: crc,
-                map: map,
-                labelContent: "Cold River Camp",
-                labelClass: "labels",
-                labelAnchor: new google.maps.Point(45, 0),
-                labelStyle: {opacity: 0.75}
-             });
-                }
-                google.maps.event.addDomListener(window, 'load', initialize);
+        
     </script>
     <!-- TemplateBeginEditable name="head" -->
     <!-- TemplateEndEditable -->
@@ -188,9 +174,9 @@ ol
 ul
 	{margin-bottom:0in;}
 -->
-      #map-canvas {
+      #map {
         width: 500px;
-        height: 400px;
+        height: 100%;
       }
      
      .labels {
@@ -214,7 +200,7 @@ ul
     <div id="header">
         <div id="amcLogoDiv">
             <a href="http://www.outdoors.org">
-                <img src="../Images/AMC-logo-green-transparent.png" alt="amclogo" width="80" height="82" style="float: left; margin-left: 10px; margin-top: 10px"/>
+                <img src="../Images/outdoors2.png" alt="amclogo" width="80" height="82" style="float: left; margin-left: 10px; margin-top: 10px"/>
             </a>
         </div>
         <div id="amcTextDiv" style="float: left; padding: 20px 0px 0px 20px;">
@@ -248,7 +234,7 @@ ul
             <a href="menu1.html" class="menuLink"> About CRC</a>
             <ul class= "menu" id="menu1">
                 <li><a href="reservInfo.html" target="_blank"> Reservations</a></li>
-                <li><a href="CRC_Calendar.pdf" target="_blank"> 2020 CRC Calendar</a></li>
+                <li><a href="CRC_Calendar.pdf" target="_blank"> 2021 CRC Calendar</a></li>
                 <li><a href="CRCcommittee.html" target="_blank"> Contact Us</a></li>
                 <li><a href="CRC_brochure 2015-01-20.pdf" target="_blank"> CRC Brochure</a></li>
                 <li><a href="Location.html" target="_blank"> Location</a></li>
@@ -331,8 +317,11 @@ Camp: 32 AMC Rd., N. Chatham, NH, 03813</span></p>
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%'>Phone (in
 season): (603) 694-3291</span></p>
 
-<div id="map-canvas"></div>
+<div id="map"></div>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJFU6xiOSiJVUv3MkNvaXymJisWj06SvQ&callback=initMap" async>
+</script>
+        
 <p class=MsoNormal><span style='line-height:115%'>&nbsp;</span></p>
 
 <p class=MsoNormal><span style='line-height:115%'>&nbsp;</span></p>
@@ -346,6 +335,6 @@ season): (603) 694-3291</span></p>
    </div>  <!-- contentcontainer -->
 
    </div>  <!-- containerInner -->           
-<div id="footer">&copy; Copyright 2019 All Rights Reserved. The Appalachian Mountain Club     10 City Square, Boston, MA 02129 P: 617-523-0655 F: 617-523-0722</div>
+<div id="footer">&copy; Copyright 2021 All Rights Reserved. The Appalachian Mountain Club     10 City Square, Boston, MA 02129 P: 617-523-0655 F: 617-523-0722</div>
 </body>
 </html>
