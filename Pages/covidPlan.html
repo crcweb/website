@@ -17,283 +17,9 @@
     <!-- TemplateEndEditable -->
 
 <style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 6 4 2 2 2 2 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-parent:"";
-	margin:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:Arial;
-	mso-ansi-language:EN;}
-h1
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:20.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:20.0pt;
-	font-family:"Arial",sans-serif;
-	mso-font-kerning:0pt;
-	mso-ansi-language:EN;
-	font-weight:normal;}
-h2
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:.25in;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:16.0pt;
-	font-family:"Arial",sans-serif;
-	mso-ansi-language:EN;
-	font-weight:normal;}
-h3
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:16.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:14.0pt;
-	font-family:"Arial",sans-serif;
-	color:#434343;
-	mso-ansi-language:EN;
-	font-weight:normal;}
-h4
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:14.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:4;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	color:#666666;
-	mso-ansi-language:EN;
-	font-weight:normal;}
-h5
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
-	color:#666666;
-	mso-ansi-language:EN;
-	font-weight:normal;}
-h6
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:6;
-	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
-	color:#666666;
-	mso-ansi-language:EN;
-	font-weight:normal;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Comment Text Char";
-	margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:Arial;
-	mso-ansi-language:EN;}
-span.MsoCommentReference
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;}
-p.MsoTitle, li.MsoTitle, div.MsoTitle
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:3.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:26.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:Arial;
-	mso-ansi-language:EN;}
-p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
-	{mso-style-unhide:no;
-	mso-style-next:Normal;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:16.0pt;
-	margin-left:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:15.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:Arial;
-	color:#666666;
-	mso-ansi-language:EN;}
-p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"Comment Text";
-	mso-style-link:"Comment Subject Char";
-	mso-style-next:"Comment Text";
-	margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Arial",sans-serif;
-	mso-fareast-font-family:Arial;
-	mso-ansi-language:EN;
-	font-weight:bold;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	mso-pagination:widow-orphan;
-	font-size:9.0pt;
-	font-family:"Segoe UI",sans-serif;
-	mso-fareast-font-family:Arial;
-	mso-ansi-language:EN;}
-span.CommentTextChar
-	{mso-style-name:"Comment Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Comment Text";
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;
-	font-family:"Segoe UI",sans-serif;
-	mso-ascii-font-family:"Segoe UI";
-	mso-hansi-font-family:"Segoe UI";
-	mso-bidi-font-family:"Segoe UI";}
-span.CommentSubjectChar
-	{mso-style-name:"Comment Subject Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"Comment Text Char";
-	mso-style-link:"Comment Subject";
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;
-	font-weight:bold;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:11.0pt;
-	mso-ansi-font-size:11.0pt;
-	mso-bidi-font-size:11.0pt;
-	font-family:"Arial",sans-serif;
-	mso-ascii-font-family:Arial;
-	mso-fareast-font-family:Arial;
-	mso-hansi-font-family:Arial;
-	mso-bidi-font-family:Arial;
-	mso-ansi-language:EN;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	line-height:115%;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-page-numbers:1;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
--->
+
 </style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	line-height:115%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
-	mso-ansi-language:EN;}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+
 </head>
 
 <body lang=EN-US style='tab-interval:.5in'>
@@ -397,315 +123,302 @@ div.WordSection1
         <div id="menuLast"> <p> &nbsp </p></div>
     </div>  <!-- end pullDown -->
    	    	  
-   	    	  <div class=WordSection1>
+<div class="WordSection1" style="page: WordSection1;">
 
-<h3 style='margin-top:0in;line-height:normal;mso-pagination:widow-orphan;
-page-break-after:auto;background:transparent'><b style='mso-bidi-font-weight:normal'><span
-lang=EN style='font-size:10.0pt;color:black'>Cold River Camp: COVID-19 and the
-2021 Season<o:p></o:p></span></b></h3>
+<h3 style="margin: 0in;line-height: normal;page-break-after: auto;layout-grid-mode: char;margin-top: 16.0pt;margin-right: 0in;margin-bottom: 4.0pt;margin-left: 0in;font-size: 14.0pt;font-family: &quot;Arial&quot;,sans-serif;color: #434343;font-weight: normal;"><b><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;
+color:black">Cold River Camp: COVID-19 and the 2021 Season</span></b></h3>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>We are excited about our
-plans to reopen Cold River Camp for the 2021 summer season! The Cold River Camp
-Committee is committed to operating the Camp safely and has spent a great deal
-of time learning how to prevent and to mitigate COVID-19 in our small
+<p class="MsoNormal" style="margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;line-height: 115%;"><span lang="EN">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">We are
+excited to see you at Cold River Camp in the 2021 summer season! The Cold River
+Camp Committee is committed to operating the Camp safely and has spent a great
+deal of time learning how to prevent and to mitigate COVID-19 in our small
 community. As we receive information from the New Hampshire Department of
-Health and Human Services, and from the AMC, we will make specific plans so
-that all aspects of Camp life will remain welcoming and safe.</span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+Health and Human Services, and from the AMC, we continue to adapt our plans so
+that all aspects of Camp life will remain welcoming and safe.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Based on our current
-plans, here are answers to some common questions. Due to the changing nature of
-COVID-19 and regulations surrounding health and safety, some of the information
-below may change. Please check back regularly, as we will update these frequently
-asked questions (FAQs) on a regular basis.</span><span lang=EN
-style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
 
-<h3 style='margin-top:14.0pt;line-height:normal;mso-pagination:widow-orphan;
-page-break-after:auto;background:transparent'><a name="_eqnvnyjcv239"></a><b
-style='mso-bidi-font-weight:normal'><span lang=EN style='font-size:10.0pt;
-color:black'>Coronavirus FAQ (Updated 1 May 2021)<o:p></o:p></span></b></h3>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Based on our
+current plans, here are answers to some common questions. Due to the changing
+nature of COVID-19 and regulations surrounding health and safety, some of the
+information below may change. Please check back regularly, as we will update
+these frequently asked questions (FAQs) on a regular basis.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><i style='mso-bidi-font-style:normal'><b><span
-lang=EN style='font-size:10.0pt;line-height:115%;color:black;mso-color-alt:
-windowtext'>Will Cold River Camp be open this summer?</span></i></b><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></p>
+<h3 style="margin: 0in;line-height: normal;page-break-after: auto;layout-grid-mode: char;margin-top: 16.0pt;margin-right: 0in;margin-bottom: 4.0pt;margin-left: 0in;font-size: 14.0pt;font-family: &quot;Arial&quot;,sans-serif;color: #434343;font-weight: normal;"><a name="_eqnvnyjcv239" style="color: blue;text-decoration: underline;"></a><b><span lang="EN" style="font-size:12.0pt;
+font-family:&quot;Book Antiqua&quot;,serif;color:black">Coronavirus FAQ (Updated 15 June
+2021)</span></b></h3>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Yes, we have a plan for opening to guests as described below. Guided by the New Hampshire Department of Health and Human Services, the AMC’s experience, and outside medical advice, we have been planning for a modified Camp opening since September. We will limit Camp occupancy to approximately 1/2 the normal occupancy to reduce the risk of exposure to COVID-19. Camp was officially opened the weekend of May 7-9, with lots of work cleaning and getting camp ready for your arrival. We look forward to a full Camp in 2022.</span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Summer weeks will
-consist of six nights instead of the usual seven, with Sunday arrival and
-Saturday morning departure. This will allow the <span class=SpellE>Croo</span>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will Cold
+River Camp be open this summer?</span></i></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Yes!! we have
+a plan for opening to guests as described below. Guided by the New Hampshire
+Department of Health and Human Services, the AMC’s experience, and outside
+medical advice, we are offering a modified Camp experience. We will limit Camp
+occupancy to approximately 2/3 the normal occupancy to reduce the risk of exposure
+to COVID-19. Fewer campers will be able to attend in 2021 but they will be free
+to move about the property, the trails, and the river. We look forward to a
+full </span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Camp in 2022.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Summer weeks
+will consist of <b>six nights</b> instead of the usual seven. To allow the Croo
 and staff the extra time necessary to thoroughly clean cabins, bathrooms, the
-kitchen and other spaces.</span><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></p>
+kitchen and other spaces we offer only a Sunday arrival and Saturday morning
+departure for full week guests. Partial week guests also should plan on anytime
+between Sunday – Saturday (no Saturday night stays).</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>To reduce exposure to
-COVID-19, the Camp will not provide linens to summer campers in 2021. Campers
-will need to bring their own sheets, blankets/sleeping bags, pillows, and
-towels.</span><span lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Won’t the vaccine make
-all this go away?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">To reduce
+exposure to COVID-19, the Camp will not provide linens to summer campers in
+2021. <u>Campers will need to bring their own sheets, blankets/sleeping bags,
+pillows, and towels.</u></span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Eventually we all hope
-that is the case. It seems clear that ultimately the world and Cold River Camp
-will be a safer place once a vaccine is fully distributed. In the meantime,
-there is little likelihood that the entire Camp population will be immunized by
-summer 2021. Nor will we know this summer the extent to which mass
-immunizations will have protected the population at large. Conscientious
-planning requires us to begin preparations as described on this page.</span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>What can I do to reduce
-the risk of exposure to campers, other <span class=SpellE>Croo</span>/staff and
-myself?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">What are the
+New Hampshire travel restrictions?</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Campers should not come
-to Cold River Camp if they have</span><span lang=EN style='color:black;
-mso-color-alt:windowtext'><a
-href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html"><span
-style='font-size:10.0pt;line-height:115%;color:black;mso-color-alt:windowtext;
-text-decoration:none;text-underline:none'> </span></a><a
-href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html"><span
-style='font-size:10.0pt;line-height:115%;color:#1155CC;text-decoration:none;
-text-underline:none'>symptoms consistent with COVID-19</span></a></span><span
-lang=EN style='font-size:10.0pt;line-height:115%;color:black;mso-color-alt:
-windowtext'> (such as fever, cough, and recent loss of smell), have been
-diagnosed with COVID-19 or are quarantined for potential exposure to COVID-19.</span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Those who are at higher
-risk of getting sick from COVID-19, or who may expose family members who are at
-higher risk, may want to consider not coming. See</span><span lang=EN
-style='color:black;mso-color-alt:windowtext'><a
-href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html"><span
-style='font-size:10.0pt;line-height:115%;color:black;mso-color-alt:windowtext;
-text-decoration:none;text-underline:none'> </span></a><a
-href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html"><span
-style='font-size:10.0pt;line-height:115%;color:#1155CC;text-decoration:none;
-text-underline:none'>CDC Guidelines for high risk</span></a></span><span
-lang=EN style='font-size:10.0pt;line-height:115%;color:black;mso-color-alt:
-windowtext'>.</span><span lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p style="margin: 0in;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 12.0pt;font-family: &quot;Times New Roman&quot;,serif;"><span style="font-family:&quot;Book Antiqua&quot;,serif;
+color:#222222">Domestic travel within the U.S. outside of New England no longer
+requires quarantine upon return to NH, although people are recommended to still
+follow CDC's&nbsp;</span><a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-during-covid19.html" style="color: blue;text-decoration: underline;"><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#004785">travel guidance</span></a><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#222222">, including wearing
+a&nbsp;</span><a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/effective-masks.html" style="color: blue;text-decoration: underline;"><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#004785">well-fitted face mask</span></a><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#222222">&nbsp;while traveling,
+practicing social distancing, getting tested 3-5 days after travel (with a
+molecular or PCR-based test), and limiting public interactions after travel
+(even if not required to quarantine).</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>In the spirit of
-community, we encourage all guests to embrace the well-established best
+<p style="margin: 0in;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 12.0pt;font-family: &quot;Times New Roman&quot;,serif;"><strong><span style="font-family:
+&quot;Book Antiqua&quot;,serif;color:#222222">&nbsp;</span></strong></p>
+
+<p style="margin: 0in;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 12.0pt;font-family: &quot;Times New Roman&quot;,serif;"><strong><span style="font-family:
+&quot;Book Antiqua&quot;,serif;color:#222222">Travelers/visitors</span></strong><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#222222">&nbsp;to&nbsp;<strong><span style="font-family:&quot;Book Antiqua&quot;,serif">AND residents</span></strong>&nbsp;of
+NH need to&nbsp;</span><a href="https://www.dhhs.nh.gov/dphs/cdcs/covid19/documents/self-quarantine-covid.pdf" style="color: blue;text-decoration: underline;"><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#004785">self-quarantine</span></a><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#222222">&nbsp;<img border="0" width="19" height="15" id="Picture 2" src="image001.jpg" alt=".pdf Icon">&nbsp;for 10
+days after the last date of any international travel (except for essential
+travel to/from Canada*), or travel on a cruise ship. Essential critical infrastructure
+employees should follow guidelines outlined in the NH DPHS&nbsp;</span><a href="https://www.dhhs.nh.gov/dphs/cdcs/covid19/documents/employee-travel-guidance.pdf" style="color: blue;text-decoration: underline;"><span style="font-family:&quot;Book Antiqua&quot;,serif;color:#004785">Employer Travel,
+Screening, and Exclusion Guidance</span></a><span style="font-family:&quot;Book Antiqua&quot;,serif;
+color:#222222">&nbsp;<img border="0" width="19" height="15" id="Picture 1" src="image001.jpg" alt=".pdf Icon">.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Won’t the
+vaccine make all this go away?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">It seems
+clear that ultimately the world and Cold River Camp will be a safer place once
+a vaccine is fully distributed. In the meantime, there is little likelihood
+that the entire Camp population will be immunized by summer 2021. Conscientious
+planning requires us to make alterations to Camp as described on this page.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Should I be
+tested prior to coming?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Depending on
+current state and AMC guidelines, we recommend that campers who are not
+vaccinated test at home prior to scheduled arrival.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">What can I do
+to reduce the risk of exposure to campers, other Croo/staff and myself?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Campers
+should not come to Cold River Camp if they have</span><span lang="EN"><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" style="color: blue;text-decoration: underline;"><span style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:windowtext;
+text-decoration:none"> </span></a><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" style="color: blue;text-decoration: underline;"><span style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:#1155CC;
+text-decoration:none">symptoms consistent with COVID-19</span></a></span><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif"> (such as
+fever, cough, and recent loss of smell), have been diagnosed with COVID-19 or
+are quarantined for potential exposure to COVID-19.Those who are at higher risk
+of getting sick from COVID-19, or who may expose family members who are at
+higher risk, may want to consider not coming. See</span><span lang="EN"><a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html" style="color: blue;text-decoration: underline;"><span style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:windowtext;
+text-decoration:none"> </span></a><a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html" style="color: blue;text-decoration: underline;"><span style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:#1155CC;
+text-decoration:none">CDC Guidelines for high risk</span></a></span><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">In the spirit
+of community, we encourage all guests to embrace the well-established best
 practices that have emerged for personal and group safety and health. All
-campers must bring their own masks. Masks must be worn in all public interior
-spaces, on the Lodge Porch and in any interior space aside from one’s own
-cabin. Campers are required to wear masks outdoors if unable to maintain a
-physical distance of at least six feet from others, including on hiking trails.
-</span><span lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+campers must bring their own masks in case they or some of their party experience
+symptoms of COVID-19. In accordance with current AMC policy, masks are welcome
+but not required; please be respectful of those that still prefer masks and
+social distancing in all public interior spaces, on the Lodge Porch and in any
+interior space aside from one’s own cabin. Campers may use their discretion on
+the trail regarding masks or distancing.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>All campers, <span
-class=SpellE>Croo</span> and staff are expected to maintain a minimum of six
-feet from one another, with the exception of members of their party/group.</span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:#1F497D">&nbsp;</span></i></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>What will meals be like?</span></i></b><b
-style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:black;
+letter-spacing:.35pt">CRC recommends, but does not require,
+vaccination to use our facilities.&nbsp; We should all expect to be in the
+company of both vaccinated and unvaccinated people at Camp.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>All food will be “to
-go.” Delicious, home-cooked meals will be prepackaged for pick up from the
-Lodge Porch. Each cabin will have an assigned thermal bag packed for you with
-dinner and breakfast each day. Trail lunches ordered the night before and
-prepared by the kitchen team will be available each morning. You may eat
-outside at a location of your choice or in your cabin. CRC will provide
-additional amenities such as extra picnic tables, canopy tents, portable tables
-and extra chairs in your cabins for your use. You can still have a picnic style
-meal behind the Lodge.</span><span lang=EN style='font-size:10.0pt;line-height:
-115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:black;
+letter-spacing:.35pt">&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Will the Lodge, Rec
-Hall, and Library be open?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:black;
+letter-spacing:.35pt">CRC and AMC believes that the outdoors
+belongs to everyone. To be sustainable and impactful in carrying out our
+mission, the full AMC community must create and embrace opportunities to be
+inclusive, kind, and equitable per AMC’s Code of Conduct. Even if you are
+vaccinated, your efforts to follow our CRC policies will enable all to feel
+comfortable in the unique communal atmosphere of this special place.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>While our procedures may change due to an unexpected change in State and AMC policy, our current plan is to provide a number of socially distanced tables in the lodge for eating meals. The Rec Hall is currently being used for storage (removed tables, blankets and other bedding, etc) and the Library is currently closed. We are working to revisit these restrictions prior to the start of the summer season so that common indoor spaces can be used safely and in accordance with procedures approved by the AMC.</span><span lang=EN
-style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Will the dam and the Tea
-House be open?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">What will
+meals be like?</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Yes! You can spend time
-relaxing in your cabin, go down to the dam to swim or just sit on the warm rocks,
-and enjoy time in the Tea House reading.</span><span lang=EN style='font-size:
-10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Will Camp group
-activities be different?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">All delicious,
+wholesome CRC food will be served buffet style by the staff. Guests may dine
+outside where they like, at open picnic tables, on the Porch, or at socially
+spaced tables inside the Lodge. Guests with concerns about eating in public may
+still request a “to go&quot; boxed meal to eat in their cabin. </span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Group activities,
-including the Sunday night all-Camp Meeting, evening programs, Square Dances,
-and the Talent Show, have been Cold River Camp traditions for many years.
-However, in order to reduce risk of COVID-19 exposure they will not be held in
-2021.</span><span lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Will there be led hikes
-at Cold River Camp this summer?</span></i></b><b style='mso-bidi-font-weight:
-normal'><i style='mso-bidi-font-style:normal'><span lang=EN style='font-size:
-10.0pt;line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Trail lunches
+ordered the night before and prepared by the kitchen team will be available
+each morning. </span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>For a variety of
-reasons, there will be no led hikes in 2021. Instead a Hike Consultant will be
-available all summer at set times each day to support you in trip planning so
-you have a great hiking experience. There will be maps and guidebooks
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will the
+Lodge, Rec Hall, and Library be open?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif;color:#1F497D">The
+Lodge and Library will be open as normal with social distancing recommended for
+people who are not vaccinated. The Rec Hall will be closed for storage needs
+due to COVID-19 and impending renovations of the Lodge. </span></i></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will the dam
+and the Tea House be open?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Yes! You can
+spend time relaxing in your cabin, go down to the dam to swim or just sit on
+the warm rocks, and enjoy time in the Tea House reading.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will Camp
+group activities be different?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Group
+activities, including the Sunday night all-Camp Meeting, evening programs,
+Square Dances, and the Talent Show, have been Cold River Camp traditions for
+many years. However, in order to reduce risk of COVID-19 exposure they will not
+be held in 2021. </span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will there be
+led hikes at Cold River Camp this summer?</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">For a variety
+of reasons, there will be no led hikes in 2021. Instead a Hike Consultant will
+be available all summer at set times each day to support you in trip planning
+so you have a great hiking experience. There will be maps and guidebooks
 available. This is a great summer to enjoy hiking at Camp with your family
-group. Check the CRC website for the Hike Consultant weekly roster.</span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+group and Camp friends in accordance with current guidelines. Check the CRC
+website for the Hike Consultant weekly roster.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Will there be changes to
-the bathrooms?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>We are planning to
-strengthen daily cleaning procedures to ensure the bathrooms and other
-high-touch areas are thoroughly cleaned and disinfected. Bathrooms will be
-modified to provide enhanced COVID safety.</span><span lang=EN
-style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will there be
+changes to the bathrooms?</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Will kids come free
-Weeks 1-9?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Yes, all Weeks, 1-9, are now
-Kids Stay for 50% due to financial considerations this year, but we expect to
-return to the Kids Free program in 2022. This is a new promotion as of 5/1/21 and is retroactive to all previous reservations.</span><span lang=EN style='font-size:
-10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">We are
+planning to strengthen daily cleaning procedures to ensure the bathrooms and
+other high-touch areas are thoroughly cleaned and disinfected. Bathrooms will
+be modified to provide enhanced COVID safety.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>What is Camp’s
-cancellation policy?</span></i></b><b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'><span lang=EN style='font-size:10.0pt;
-line-height:115%'><o:p></o:p></span></i></b></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Cancellations received
-prior to May 1 will receive a 50% deposit refund. No deposit refunds will be
-made after May 1.</span><span lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Will kids
+come free Weeks 1 and 2?</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>In fairness to those
-denied space, payment in full is required if a cancellation request is not
-received at least 14 days prior to scheduled arrival.</span><span lang=EN
-style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>If, within 14 days prior
-to arrival to Camp, you are experiencing symptoms of COVID or have been exposed
-to COVID please do not come to Camp. If you experience COVID symptoms while at
-Camp, you will be asked to leave. The Manager will discuss your reservation
-options at that time.</span><span lang=EN style='font-size:10.0pt;line-height:
-115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">This summer we
+have changed to an all &quot;Weeks 1-9 Kids Stay for 50%&quot; policy rather
+than our usual Kids Stay Free in just Weeks 1 and 2. We expect to return to the
+Kids Free Weeks 1 and 2 program in 2022.</span></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>If the entire Camp
-season is cancelled due to state or AMC regulations, the full amount will be
-refunded.</span><span lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;margin-right:0in;margin-bottom:
-14.0pt;margin-left:0in;background:transparent'><span lang=EN style='font-size:10.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Cold River Camp
-recommends that campers purchase travel insurance to cover expenses in the case
-of personal cancellation and in the case of Camp cancellation. </span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">What is
+Camp’s cancellation policy?</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;background:transparent'><b
-style='mso-bidi-font-weight:normal'><span lang=EN style='font-size:12.0pt;
-line-height:115%;color:black;mso-color-alt:windowtext'>Have more questions?</span></b><span
-lang=EN style='font-size:10.0pt;line-height:115%;color:black;mso-color-alt:
-windowtext'> Email </span><span lang=EN style='color:black;mso-color-alt:windowtext'><a
-href="mailto:amc.crccommunications@gmail.com"><span style='font-size:10.0pt;
-line-height:115%'>amc.crccommunications@gmail.com</span></a></span><span
-lang=EN style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><i><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></i></b></p>
 
-<p class=MsoNormal style='margin-top:14.0pt;background:transparent'><span lang=EN
-style='font-size:10.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Cancellations
+received prior to May 1 will receive a 50% deposit refund. No deposit refunds
+will be made after May 1. In fairness to those denied space, payment in full is
+required if a cancellation request is not received at least 14 days prior to
+scheduled arrival.</span></p>
 
-<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">If, within 14
+days prior to arrival to Camp, you are experiencing symptoms of COVID or have
+been exposed to COVID please do not come to Camp. If you experience COVID
+symptoms while at Camp, you will be asked to leave. The Manager will discuss
+your reservation options at that time.</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">If the entire
+Camp season is cancelled due to state or AMC regulations, the full amount will
+be refunded. Cold River Camp recommends that campers purchase travel insurance
+to cover expenses in the case of personal cancellation and in the case of Camp
+cancellation. </span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><b><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">Have more
+questions?</span></b><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">
+Email </span><span lang="EN"><a href="mailto:amc.crccommunications@gmail.com" style="color: blue;text-decoration: underline;"><span style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">amc.crccommunications@gmail.com</span></a></span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height: normal;layout-grid-mode: char;margin-right: 0in;margin-left: 0in;font-size: 11.0pt;font-family: &quot;Arial&quot;,sans-serif;margin: 0in;"><span lang="EN" style="font-size:12.0pt;font-family:&quot;Book Antiqua&quot;,serif">&nbsp;</span></p>
 
 </div>
-   	    	  
+  
    	    	     </div>  <!-- contentcontainer -->
 
    </div>  <!-- containerInner -->           
